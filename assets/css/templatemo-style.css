@@ -145,31 +145,6 @@ html {
     color: #fff;
 }
 
-.menu .social-network {
-    margin-top: 60px;
-}
-
-.menu .social-network ul li {
-    margin: 0 3px;
-}
-
-.menu .social-network ul li a {
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    text-align: center;
-    line-height: 40px;
-    background-color: rgba(0, 0, 0, 0.2);
-    color: #fff;
-    font-size: 14px;
-    transition: all 0.5s;
-}
-
-.menu .social-network ul li a:hover {
-    background-color: #fff;
-    color: #a43f49;
-}
-
 .menu .copyright-text {
     position: relative;
     margin-top: 60px;
@@ -229,46 +204,6 @@ html {
   z-index: 9999 !important;
 }
 
-.menu-toggle {
-  color: #fff;
-  cursor: pointer;
-  font-size: 25px;
-  position: fixed;
-  right: 25px;
-  top: 25px;
-}
-
-#menu-toggle {
-    z-index: 999;
-    cursor: pointer;
-    position: fixed;
-    top: 0;
-    left: 0;
-    color: #a43f49;
-    background-color: #fff;
-    width: 60px;
-    height: 60px;
-    text-align: center;
-    display: inline-block;
-    line-height: 60px;
-}
-
-.menu-close {
-  cursor: pointer;
-}
-
-#menu-close {
-    cursor: pointer;
-    text-align: right;
-    color: #a43f49;
-    background-color: #fff;
-    width: 100%;
-    height: 60px;
-    text-align: center;
-    display: inline-block;
-    line-height: 60px;
-}
-
 
 /* Section */
 
@@ -307,49 +242,6 @@ html {
     color: #fff;
     letter-spacing: 0.5px;
 }
-
-
-/* Buttons */
-
-.white-button a {
-    display: inline-block;
-    padding: 12px 20px;
-    background-color: #fff;
-    color: #a43f49;
-    font-size: 13px;
-    font-weight: 800;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    transition: all 0.5s;
-}
-
-.white-button a:hover {
-    background-color: #a43f49;
-    color: #fff;
-}
-
-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #fff;
-    color: #a43f49;
-    font-size: 12px;
-    font-weight: 800;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    transition: all 0.5s;
-    border: none;
-    outline: none;
-    cursor: pointer;
-}
-
-button:hover {
-    outline: none;
-    background-color: #a43f49;
-    color: #fff;
-}
-
-
 /* Left & Right Post */
 
 .right-image-post {
@@ -453,51 +345,6 @@ button:hover {
 
 .service-item:hover .fourth-service-icon {
     background-image: url(../images/fourth-main-icon.png);
-}
-
-section.contact-me {
-    border-bottom: none;
-}
-
-#contact input {
-    background-color: rgba(250,250,250,0.1);
-    border: 1px solid rgba(250,250,250,1);
-    border-radius: 0px;
-    margin-bottom: 30px;
-    color: #fff;
-    font-size: 14px;
-    height: 40px;
-    line-height: 40px;
-    width: 100%;
-    padding-left: 15px;
-}
-
-#contact input:focus {
-    outline: none;
-    box-shadow: none;
-}
-
-#contact textarea {
-    background-color: rgba(250,250,250,0.1);
-    border: 1px solid rgba(250,250,250,1);
-    border-radius: 0px;
-    margin-bottom: 30px;
-    color: #fff;
-    font-size: 14px;
-    height: 180px;
-    max-height: 220px;
-    line-height: 40px;
-    width: 100%;
-    padding-left: 15px;
-}
-
-#contact textarea:focus {
-    outline: none;
-    box-shadow: none;
-}
-
-#contact {
-    text-align: center;
 }
 
 @media screen and (max-width: 1680px) {
